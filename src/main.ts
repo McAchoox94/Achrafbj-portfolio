@@ -10,3 +10,8 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+    /* <!-- =======================================================
+  * Author: Boujjou Achraf / Naoufal Alaoui Ismaili
+  * License: https://www.linkedin.com/in/achrafboujjou // https://www.linkedin.com/in/naoufal-alaoui-ismaili-95042a165/
+  ======================================================== --> */

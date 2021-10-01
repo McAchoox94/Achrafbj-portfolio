@@ -1,0 +1,56 @@
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up" data-aos-mirror="false" data-aos-once="false">
+  
+          <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+  
+          <swiper [slidesPerView]="1" [pagination]="{ el: '.swiper-pagination', clickable: true }" [loop]="true" [controller]="{ control: controlledSwiper }" [navigation]="false"> <!-- u can edit navigation to true if u want use navigation -->
+          
+            <ng-template swiperSlide>
+              <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>ABDELKRIM LEGSAI</h3>
+                  <h4>Ceo &amp; Founder of Borderline-Solutions</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Achraf was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+          </ng-template>
+  
+          <ng-template swiperSlide>
+            <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Fadwa Salhi</h3>
+                <h4>marketing and international trade</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Achraf's a clear communicator with the tenacity and confidence to really dig in to tricky develop scenarios and the collaborative friction that's needed to produce excellent work.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+        </ng-template>
+
+		<ng-template swiperSlide>
+            <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+        </ng-template>
+  
+      </swiper>
+
+      <div class="swiper-pagination"></div>
+  
+        </div>
+      </section><!-- End Testimonials Section -->
